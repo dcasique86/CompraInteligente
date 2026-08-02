@@ -1,0 +1,6 @@
+{
+  "name": "Conversor Divisas",
+  "description": "Aplicación de conversión de divisas en tiempo real entre Dólares (USD), Pesos Colombianos (COP) y Bolívares Venezolanos (VES) con tasas de cambio configurables y guardado local.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

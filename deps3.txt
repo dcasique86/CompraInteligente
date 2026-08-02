@@ -1,0 +1,82 @@
+
+C:\Users\Denis Casique\Documents\OPENCODE\CompraInteligente>set JAVA_HOME="C:\Program Files\Android\Android Studio\jbr" 
+
+C:\Users\Denis Casique\Documents\OPENCODE\CompraInteligente>gradlew.bat clean assembleDebug --no-configuration-cache 
+> Task :app:clean
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:generateDebugBuildConfig FROM-CACHE
+> Task :app:processDebugNavigationResources FROM-CACHE
+> Task :app:compileDebugNavigationResources FROM-CACHE
+> Task :app:checkDebugAarMetadata
+> Task :app:generateDebugResValues FROM-CACHE
+> Task :app:mapDebugSourceSetPaths
+> Task :app:generateDebugResources FROM-CACHE
+> Task :app:mergeDebugResources FROM-CACHE
+> Task :app:packageDebugResources FROM-CACHE
+> Task :app:parseDebugLocalResources FROM-CACHE
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug FROM-CACHE
+> Task :app:processDebugMainManifest FROM-CACHE
+> Task :app:processDebugManifest FROM-CACHE
+> Task :app:processDebugManifestForPackage FROM-CACHE
+> Task :app:processDebugResources FROM-CACHE
+> Task :app:kspDebugKotlin FROM-CACHE
+> Task :app:javaPreCompileDebug FROM-CACHE
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :app:compressDebugAssets FROM-CACHE
+> Task :app:desugarDebugFileDependencies FROM-CACHE
+> Task :app:mergeDebugJniLibFolders
+> Task :app:validateSigningDebug
+> Task :app:writeDebugAppMetadata
+> Task :app:writeDebugSigningConfigVersions
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeDebugNativeLibs
+> Task :app:mergeExtDexDebug FROM-CACHE
+> Task :app:mergeLibDexDebug FROM-CACHE
+
+> Task :app:stripDebugDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so, libdatastore_shared_counter.so, libimage_processing_util_jni.so, libsurface_util_jni.so. Run with --info option to learn more.
+
+> Task :app:compileDebugKotlin
+e: file:///C:/Users/Denis%20Casique/Documents/OPENCODE/CompraInteligente/app/src/main/java/com/example/ui/products/NewProductScreen.kt:45:37 Unresolved reference 'BorderStroke'.
+e: file:///C:/Users/Denis%20Casique/Documents/OPENCODE/CompraInteligente/app/src/main/java/com/example/ui/products/NewProductScreen.kt:47:37 Unresolved reference 'clip'.
+e: file:///C:/Users/Denis%20Casique/Documents/OPENCODE/CompraInteligente/app/src/main/java/com/example/ui/products/NewProductScreen.kt:117:82 Unresolved reference 'PickVisualMediaRequest'.
+e: file:///C:/Users/Denis%20Casique/Documents/OPENCODE/CompraInteligente/app/src/main/java/com/example/ui/products/NewProductScreen.kt:188:18 Unresolved reference 'clip'.
+e: file:///C:/Users/Denis%20Casique/Documents/OPENCODE/CompraInteligente/app/src/main/java/com/example/ui/products/NewProductScreen.kt:199:25 Unresolved reference 'Color'.
+e: file:///C:/Users/Denis%20Casique/Documents/OPENCODE/CompraInteligente/app/src/main/java/com/example/ui/products/NewProductScreen.kt:202:92 Unresolved reference 'Color'.
+e: file:///C:/Users/Denis%20Casique/Documents/OPENCODE/CompraInteligente/app/src/main/java/com/example/ui/products/NewProductScreen.kt:236:18 Unresolved reference 'BorderStroke'.
+e: file:///C:/Users/Denis%20Casique/Documents/OPENCODE/CompraInteligente/app/src/main/java/com/example/ui/products/ProductListScreen.kt:29:37 Unresolved reference 'clip'.
+e: file:///C:/Users/Denis%20Casique/Documents/OPENCODE/CompraInteligente/app/src/main/java/com/example/ui/products/ProductListScreen.kt:134:18 Unresolved reference 'clip'.
+
+> Task :app:compileDebugKotlin FAILED
+
+[Incubating] Problems report is available at: file:///C:/Users/Denis%20Casique/Documents/OPENCODE/CompraInteligente/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.3.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 45s
+33 actionable tasks: 14 executed, 19 from cache
+Press any key to exit...

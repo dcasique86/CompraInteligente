@@ -1,0 +1,5 @@
+- [x] Update `libs.versions.toml` with `kotlin-android` plugin and consistent versions
+- [x] Fix `settings.gradle.kts` (project name and repositories)
+- [x] Add `kotlin-android` to root `build.gradle.kts`
+- [x] Apply `kotlin-android` in `app/build.gradle.kts`
+- [/] Run Gradle Sync and verify

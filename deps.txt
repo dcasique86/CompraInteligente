@@ -1,0 +1,6 @@
+
+ERROR: JAVA_HOME is set to an invalid directory: C:\Progra~1\Android\Android~1\jbr 
+
+Please set the JAVA_HOME variable in your environment to match the
+location of your Java installation.
+Press any key to exit...
